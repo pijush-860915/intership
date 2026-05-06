@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blanchedalmond;
+  color: rgb(156, 103, 206);
+  line-height: 1.6;
+
+}
+.header{
+  background-color: black;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+.nevbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+.logo{
+  color: antiquewhite;
+  font-size: 28px;
+  letter-spacing: 10px;
+
+}
+.nevlink{
+  list-style: none ;
+  display: flex;
+  gap: 25px;
+}
+.nevlink li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+
+}
+.nevlink li a:hover{
+  color: blue;
+}
+.hero{
+  background-image: url(../pi.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.content{
+  align-items: center;
+  color: #fff;
+}
+.content h1{
+  font-size: 55px;
+}
+.content p{
+  font-size: 30px;
+}
+.content a{
+  text-decoration: none;
+  color: #f5f0f0;
+}
+.container {
+  display: flex;              
+  gap: 20px;                  
+  justify-content: center;    
+  margin-top: 50px;
+}
+
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  text-align: center;
+  line-height:150px;        
+  font-weight: bold;
+  background-image:url(../k.webp);
+  box-shadow: 3px 3px 5px 5px gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box2 {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  text-align: center;
+  background-image: url(../d.webp);
+  line-height: 150px;        
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 5px gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box3 {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  background-image: url(../Amritsar--the-GT-790281659010783.jpg);
+  text-align: center;
+  line-height: 150px;        
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 5px gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.box4 {
+  width:400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  background-image: url(../jagannath-temple-header-hyderabad-tourism.jpg);
+  text-align: center;
+  line-height: 150px;        
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 5px gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.box5 {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  background-image :url(../tourist-places-to-visit-in-meghalaya.jpg);
+  text-align:center;
+  line-height: 150px;        
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 5px gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.button{
+  background-color: rgba(209, 114, 158, 0.582);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:oblique;
+  color: rgb(221, 199, 199);
+}
+.footer{
+  box-sizing: border-box;
+
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  line-height: 5;
+}
